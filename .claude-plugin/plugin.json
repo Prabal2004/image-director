@@ -1,0 +1,16 @@
+{
+  "name": "image-director",
+  "displayName": "Image Director",
+  "version": "0.1.0",
+  "description": "Reference-led creative direction for image generation and editing.",
+  "author": {
+    "name": "Prabal"
+  },
+  "homepage": "https://github.com/Prabal2004/image-director",
+  "repository": "https://github.com/Prabal2004/image-director",
+  "icon": "./skills/image-director/assets/chef-light-1024.png",
+  "documentationUrl": "https://github.com/Prabal2004/image-director",
+  "supportUrl": "https://github.com/Prabal2004/image-director/blob/main/SUPPORT.md",
+  "privacyPolicyUrl": "https://github.com/Prabal2004/image-director/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/Prabal2004/image-director/blob/main/TERMS.md"
+}

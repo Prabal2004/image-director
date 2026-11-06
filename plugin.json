@@ -1,0 +1,52 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "image-director",
+  "version": "0.1.0",
+  "description": "Reference-led creative direction for image generation and editing.",
+  "author": {
+    "name": "Prabal"
+  },
+  "homepage": "https://github.com/Prabal2004/image-director",
+  "repository": "https://github.com/Prabal2004/image-director",
+  "keywords": [
+    "image",
+    "creative-direction",
+    "photography",
+    "illustration",
+    "mockup"
+  ],
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "prompts": [
+          "Create a minimal chef mascot using these shape references.",
+          "My packaging artwork looks distorted in this mockup. Diagnose and fix the geometry."
+        ]
+      },
+      "interface": {
+        "displayName": "Image Director",
+        "shortDescription": "Direct images with intention",
+        "longDescription": "A creative-direction workflow by Prabal for image generation and editing. Analyze references, translate visual language into clear prompts, build manually assembled reference boards when useful, pursue believable photographic realism, and solve mockup geometry through staged guides. Requires image-generation or editing tools in the host. Includes a chef-shaped character icon for light and dark themes.",
+        "developerName": "Prabal",
+        "category": "Creativity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Direct an image from my brief and reference images.",
+          "Help me make this product mockup more believable."
+        ],
+        "websiteURL": "https://github.com/Prabal2004/image-director",
+        "supportURL": "https://github.com/Prabal2004/image-director/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://github.com/Prabal2004/image-director/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/Prabal2004/image-director/blob/main/TERMS.md",
+        "logo": "./skills/image-director/assets/chef-light-1024.png",
+        "logoDark": "./skills/image-director/assets/chef-dark-1024.png",
+        "composerIcon": "./skills/image-director/assets/chef-light-1024.png",
+        "composerIconDark": "./skills/image-director/assets/chef-dark-1024.png"
+      },
+      "publication": {
+        "release_notes": "Initial release with reference-led creative direction and light/dark chef icon assets.",
+        "countries": []
+      }
+    }
+  }
+}

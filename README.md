@@ -1,6 +1,8 @@
 # Image Director
 
-A draft skill for directing image generation through careful reference analysis, intentional styling, believable photography, and staged visual problem solving.
+<img src="skills/image-director/assets/chef-light-1024.png" alt="Image Director chef mascot" width="128">
+
+A skill by Prabal for directing image generation through careful reference analysis, intentional styling, believable photography, and staged visual problem solving.
 
 The workflow moves from brief and reference analysis to input preparation, prompting, generation, and diagnosis. Imperfections and photographic restraint are flexible creative choices, not mandatory filters. Reference boards use manually assembled original images rather than AI-generated collages.
 
@@ -31,7 +33,19 @@ In this source checkout, before installation, ask Codex to read `skills/image-di
 
 ## ChatGPT
 
-This repository contains a standalone skill, not an installed ChatGPT plugin. For a manual trial, attach `SKILL.md` and your reference images to a chat with image generation available and ask ChatGPT to follow the workflow. This only supplies instructions for that chat. An installable plugin is a separate packaging and installation step.
+The root `plugin.json` packages the skill for ChatGPT and Codex. Public directory review and publication are separate from GitHub availability. For a manual trial, attach `SKILL.md` and your reference images to a chat with image generation available and ask ChatGPT to follow the workflow.
+
+## Claude Code
+
+The `.claude-plugin/plugin.json` manifest exposes the same `skills/` directory. To try a local checkout, launch `claude --plugin-dir /absolute/path/to/image-director` and use `/image-director:image-director` with your brief. Image generation still requires a suitable tool in the host.
+
+Claude's manifest includes the chef icon for its directory listing. Claude Code's documented runtime ignores that listing icon, so an icon beside a skill invocation is not guaranteed.
+
+## Icon and policies
+
+Chef icon SVGs and PNGs are in `skills/image-director/assets/`. The OpenAI plugin includes light and dark variants. Skill-level Codex metadata includes small and large icons.
+
+[Support](SUPPORT.md) · [Privacy](PRIVACY.md) · [Terms](TERMS.md)
 
 ## Status
 
