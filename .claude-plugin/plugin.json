@@ -1,7 +1,7 @@
 {
   "name": "image-director",
   "displayName": "Image Director",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Reference-led creative direction for image generation and editing.",
   "author": {
     "name": "Prabal"

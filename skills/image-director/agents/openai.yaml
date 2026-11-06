@@ -1,6 +1,6 @@
 interface:
   display_name: "Image Director"
   short_description: "Reference-led art direction for image generation"
-  icon_small: "./assets/chef-light-48.png"
-  icon_large: "./assets/chef-light-1024.png"
+  icon_small: "./assets/chef-icon-48.png"
+  icon_large: "./assets/chef-icon-1024.png"
   default_prompt: "Use $image-director to interpret my brief and references, prepare useful inputs, and generate an intentionally styled image."

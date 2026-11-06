@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "image-director",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Reference-led creative direction for image generation and editing.",
   "author": {
     "name": "Prabal"
@@ -44,7 +44,7 @@
         "composerIconDark": "./skills/image-director/assets/chef-dark-1024.png"
       },
       "publication": {
-        "release_notes": "Initial release with reference-led creative direction and light/dark chef icon assets.",
+        "release_notes": "Improve skill icon contrast in both themes; include Codex compatibility metadata.",
         "countries": []
       }
     }
