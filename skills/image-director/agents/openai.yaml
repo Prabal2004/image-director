@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Director"
+  short_description: "Reference-led art direction for image generation"
+  default_prompt: "Use $image-director to interpret my brief and references, prepare useful inputs, and generate an intentionally styled image."
